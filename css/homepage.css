@@ -27,7 +27,7 @@ body{
   transform: scale(1.08);
 }
 
-.row__poster::-webkit-scrollbar{
+.row__posters::-webkit-scrollbar{
   display: none;
 }
 
