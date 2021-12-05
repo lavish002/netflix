@@ -10,12 +10,26 @@ body{
 .row__poster{
   width:100%;
   object-fit: contain;
-  max-height: 100px;
+  max-height: 120px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+.row__posters{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width: 0px;
+  padding: 20px;
+}
+.row__poster1{
+  width:100%;
+  object-fit: contain;
+  max-height: 200px;
   margin-right: 10px;
   transition: transform 450ms;
 }
 
-.row__posters{
+.row__posters1{
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -28,6 +42,13 @@ body{
 }
 
 .row__posters::-webkit-scrollbar{
+  display: none;
+}
+.row__poster1:hover{
+  transform: scale(1.08);
+}
+
+.row__posters1::-webkit-scrollbar{
   display: none;
 }
 
